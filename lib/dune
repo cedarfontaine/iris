@@ -1,0 +1,6 @@
+(library
+ (name iris)
+ (public_name iris)
+ (libraries zarith)
+ (preprocess (pps ppx_deriving.show ppx_deriving.eq ppx_deriving.ord))
+ (flags (:standard -warn-error -A)))

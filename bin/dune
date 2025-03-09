@@ -1,0 +1,6 @@
+(executable
+ (name main)
+ (public_name iris)
+ (package iris)
+ (libraries iris cmdliner)
+ (flags (:standard -warn-error -A)))
